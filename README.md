@@ -41,3 +41,13 @@ WASD — движение, мышь — прицел, ЛКМ — выстрел,
 Это прототип с видом сверху под углом, не полноценный 3D FPS уровня CS2. Проверка попаданий и античит базовые, и сервер следует дополнительно тестировать перед публичным соревновательным использованием. Перед публикацией убедись, что имеешь права на распространение аудиозаписей.
 
 - Исправлено прицеливание: при Pointer Lock угол меняется по относительному движению мыши, прицел закреплён в центре экрана; вне Pointer Lock используется позиция курсора относительно canvas.
+
+
+## Serega V5 update
+- Respawn delay: 3 seconds.
+- User-provided background track (`public/audio/background.m4a`) loops continuously after the first user interaction.
+- Killstreak audio overlays background music and stops after 15 seconds.
+- Colorful teal/blue/purple map palette.
+- Random persistent player ID shown in the main menu; online friend requests and game invites by ID.
+- Modes: Free-for-all and a basic bomb-plant mode. Press F to plant and E to defuse.
+- Press Start Match to select/apply the room mode.
