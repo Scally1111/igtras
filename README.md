@@ -19,6 +19,9 @@ git commit -m "Initial 5D Shooter Online"
 git branch -M main
 git remote add origin https://github.com/ВАШ-АККАУНТ/ВАШ-РЕПОЗИТОРИЙ.git
 git push -u origin main
+git add public/index.html patch-start-match.js`
+git commit -m "Fix start match flow"`
+git push`
 ```
 Не забудь включить `public/audio/` с четырьмя треками.
 
