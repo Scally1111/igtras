@@ -1,0 +1,8 @@
+{
+  "профи": {
+    "nickname": "Профи",
+    "passwordHash": "87cd648cd86a9fc17ff5950438b2c4650faab6f0f0b17c5d01cf5b1df059a40b957ca44e840763db7f48999f9a3c25448721e6f409730e2e6bca89809d1f7aa5",
+    "salt": "c60e626f609e273e7deaa31c8a58fc13",
+    "createdAt": "2026-10-17T14:01:14.250Z"
+  }
+}
