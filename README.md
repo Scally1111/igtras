@@ -19,9 +19,6 @@ git commit -m "Initial 5D Shooter Online"
 git branch -M main
 git remote add origin https://github.com/ВАШ-АККАУНТ/ВАШ-РЕПОЗИТОРИЙ.git
 git push -u origin main
-git add public/index.html patch-start-match.js`
-git commit -m "Fix start match flow"`
-git push`
 ```
 Не забудь включить `public/audio/` с четырьмя треками.
 
@@ -54,3 +51,8 @@ WASD — движение, мышь — прицел, ЛКМ — выстрел,
 - Random persistent player ID shown in the main menu; online friend requests and game invites by ID.
 - Modes: Free-for-all and a basic bomb-plant mode. Press F to plant and E to defuse.
 - Press Start Match to select/apply the room mode.
+
+
+## Авторизация и регистрация
+
+При открытии игры сначала показывается отдельное окно входа/регистрации. Никнеймы уникальны без учёта регистра; пароль хранится на сервере в виде scrypt-хеша с солью. Аккаунты сохраняются в `accounts.json` рядом с `server.js`. Для сохранения аккаунтов на хостинге используйте постоянный диск/volume. После успешного входа откроется главное меню; для старта игрового процесса нажмите «ВОЙТИ В КОМНАТУ», затем «НАЧАТЬ МАТЧ» при необходимости.
